@@ -1,0 +1,72 @@
+body{
+  background-image:url(C:\Users\bartek\Desktop\szkola\cotw\apka-tester\src\Background.png) ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family:'Times New Roman', Timses, serif
+}
+
+
+h1{
+  font-size:calc(18px + 2vmin) ;
+}
+
+
+.App {
+  text-align:left;
+  pointer-events:none;
+}
+
+.App-header {
+  background-color: #d9d9d9;
+  min-height: 10vh;
+  display: flex;
+  justify-content:center;
+  font-size: calc(12px + 2vmin);
+  color: rgb(255, 255, 255);
+  margin-bottom: 5%;
+
+}
+.App-logo {
+  padding: 2%;
+  height: 15vmin;
+  pointer-events:auto;
+  opacity: 1;
+  
+}
+
+.Features{
+  font-size:calc(12px + 2vmin) ;
+}
+
+#feature{
+  float: left;
+  flex-direction: column;
+  padding: 2%;
+  height:20vmin;
+}
+#dane{
+  float: left;
+  text-align: left;
+  margin: 4vmin;
+  margin-inline: 5%+5vmin;
+  padding: auto;
+  background-color: #d9d9d9;
+  align-items: center;
+}
+.Demo{
+  background-color: #d9d9d9;
+  margin: 4vmin;
+  height:20vmin;
+  float:left;
+  padding: 5%;
+  margin-inline: 5%+5vmin;
+  width:fit-content;
+}
+
+.Foot{
+  background-color: #d9d9d9;
+  padding: 2%;
+  height:20vmin;
+  width: 100%;
+  float: left;
+}
